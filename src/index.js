@@ -13,16 +13,16 @@ app.engine('ejs', engine);
 app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
-	res.render("home");
+    res.render("home");
 });
 
 app.get("/contact", function(req, res) {
-	res.render("contact");
+    res.render("contact");
 });
 
 var server = app.listen(1111, function () {
-  var host = server.address().address;
-  var port = server.address().port;
-  console.log("Example app listening at http://%s:%s", host, port);
+    var host = server.address().address;
+    var port = server.address().port;
+    console.log("Example app listening at http://%s:%s", host, port);
 });
 
