@@ -1,5 +1,5 @@
 var express = require("express");
-var engine = require('ejs-locals');
+var engine = require("ejs-locals");
 var app = express();
 
 //settings
